@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technology Librarian – Resources</title>
+  <style>
+    :root{
+      --bg-main:#e0f7f7;
+      --bg-header:#b2dfdb;
+      --bg-nav:#c9ecea;
+      --bg-nav-hover:#9fd1cf;
+      --bg-box:#e0f2f1;
+      --bg-box-hover:#b2dfdb;
+      --border:#00695c;
+      --text-main:#004d40;
+      --accent:#00695c;
+    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{
+      font-family:Arial, sans-serif;
+      background:var(--bg-main);
+      color:var(--text-main);
+      line-height:1.6;
+    }
+    header{
+      background:var(--bg-header);
+      padding:20px;
+      text-align:center;
+    }
+    header h1{color:var(--accent);margin-bottom:10px}
+    nav{background:var(--bg-nav)}
+    nav ul{list-style:none;display:flex;justify-content:center;flex-wrap:wrap}
+    nav li{margin:0 15px}
+    nav a{
+      display:block;padding:14px 20px;
+      text-decoration:none;font-weight:bold;
+      color:var(--text-main);border-radius:6px;
+      transition:.25s;
+    }
+    nav a:hover{background:var(--bg-nav-hover)}
+    main{padding:20px}
+    section{margin-bottom:40px}
+    section h2{color:var(--accent);margin-bottom:10px}
+    .resource-box{
+      background:var(--bg-box);
+      border:2px solid var(--border);
+      padding:15px;margin-bottom:20px;border-radius:12px;
+      transition:background-color .3s,transform .3s;
+    }
+    .resource-box:hover{background:var(--bg-box-hover);transform:translateY(-5px)}
+    .resource-box h3{color:var(--accent);font-size:1.2em;margin-bottom:10px}
+    ul.resources{list-style:disc;margin-left:20px}
+    ul.resources li{margin-bottom:10px}
+    footer{
+      background:var(--bg-header);
+      text-align:center;padding:10px;font-size:.9em;
+      color:var(--text-main);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Smart Healthcare Hub – Resources</h1>
+    <p>Explore digital healthcare tools and technologies curated by your Technology Librarian.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="ai-chatbot.html">AI Chatbot</a></li>
+      <li><a href="vr-experiences.html">VR Experiences</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="eventscalendar.html">Events Calendar</a></li>
+      <li><a href="feedbackform.html">Feedback</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="resources">
+      <h2>Healthcare Technology Resources</h2>
+
+      <div class="resource-box">
+        <h3>1. Digital Health Literacy</h3>
+        <ul class="resources">
+          <li><a href="https://www.who.int/" target="_blank">WHO Digital Health Platform</a> – Tools and resources from the World Health Organization on digital health transformation.</li>
+        </ul>
+      </div>
+
+      <div class="resource-box">
+        <h3>2. AI & Emerging Health Tech</h3>
+        <ul class="resources">
+          <li><a href="https://www.fruitpunch.ai/labs/ai-for-health-lab" target="_blank">AI for Healthcare Lab</a> – A global initiative connecting AI engineers and healthcare professionals to solve real medical challenges ethically.</li>
+          <li><a href="https://doi.org/10.1016/j.ipm.2020.102440" target="_blank">Artificial Intelligence for Health Information Processing</a> – An academic paper exploring AI applications in health information management and decision-making.</li>
+        </ul>
+      </div>
+
+      <div class="resource-box">
+        <h3>3. Smart Sensors & Assistive Technologies</h3>
+        <ul class="resources">
+          <li><a href="https://doi.org/10.3390/jsan12020020" target="_blank">Review on Sensor-Based Assistive Technologies</a> – A review of sensor networks and assistive systems in healthcare, published in *Journal of Sensor and Actuator Networks*.</li>
+        </ul>
+      </div>
+
+      <div class="resource-box">
+        <h3>4. Mental Health & Wellness</h3>
+        <ul class="resources">
+          <li><a href="https://www.headspace.com/" target="_blank">Headspace</a> – Guided meditations and digital tools to reduce stress and promote mental wellbeing.</li>
+          <li><a href="https://www.befrienders.org.my/" target="_blank">Befrienders Malaysia</a> – Free and confidential emotional support for mental health challenges.</li>
+        </ul>
+      </div>
+
+      <p>Want more resources? Use our <a href="ai-chatbot.html">AI Chatbot</a> for personalized help or contact us directly.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Technology Librarian – Smart Healthcare Hub | All rights reserved.</p>
+  </footer>
+</body>
+</html>
